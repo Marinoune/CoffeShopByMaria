@@ -1,0 +1,1 @@
+- Loyalty stamps stored in `localStorage` (`loyalty_stamps`) — after 10 stamps you unlock a free cupcake.

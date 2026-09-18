@@ -1,0 +1,357 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Cappuccino",
+    "price": 4.5,
+    "category": "Breakfast",
+    "image": "/images/cute Classic Cappuccino .jpg"
+  },
+  {
+    "id": 2,
+    "name": "French Croissant",
+    "price": 2.5,
+    "category": "Breakfast",
+    "image": "/images/cute French Croissant.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Pain au Chocolat",
+    "price": 2.8,
+    "category": "Breakfast",
+    "image": "/images/cute french petit pain au chocolat that looks real.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Chia Pudding Bowl",
+    "price": 5.5,
+    "category": "Breakfast",
+    "image": "/images/cute Chia Pudding Bowl (1).jpg"
+  },
+  {
+    "id": 5,
+    "name": "Matcha Latte",
+    "price": 4.2,
+    "category": "Breakfast",
+    "image": "/images/cute Matcha Latte (1).jpg"
+  },
+  {
+    "id": 6,
+    "name": "Avocado Toast",
+    "price": 6.5,
+    "category": "Breakfast",
+    "image": "/images/cute Avocado Toast (1).jpg"
+  },
+  {
+    "id": 7,
+    "name": "Greek Yogurt & Berries",
+    "price": 5.0,
+    "category": "Breakfast",
+    "image": "/images/cute Greek Yogurt & Berries.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Orange Juice Fresh",
+    "price": 3.0,
+    "category": "Breakfast",
+    "image": "/images/cute Orange Juice that looks real .jpg"
+  },
+
+  {
+    "id": 9,
+    "name": "Pancakes Stack",
+    "price": 7.0,
+    "category": "Brunch",
+    "image": "/images/cute Pancakes Stack that looks real.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Waffles with Berries",
+    "price": 7.5,
+    "category": "Brunch",
+    "image": "/images/cute Waffles with Berries that looks real.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Eggs Benedict",
+    "price": 8.5,
+    "category": "Brunch",
+    "image": "/images/cute Eggs Benedict that looks real.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Quiche Lorraine",
+    "price": 6.8,
+    "category": "Brunch",
+    "image": "/images/cute Quiche Lorraine looks real.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Bagel & Salmon",
+    "price": 9.0,
+    "category": "Brunch",
+    "image": "/images/cuteee Bagel & Salmon that  looks real (1).jpg"
+  },
+  {
+    "id": 14,
+    "name": "Shakshuka",
+    "price": 8.0,
+    "category": "Brunch",
+    "image": "/images/cute Shakshuka that looks real .jpg"
+  },
+  {
+    "id": 15,
+    "name": "Caesar Salad",
+    "price": 6.5,
+    "category": "Brunch",
+    "image": "/images/cute Caesar Salad that looks real .jpg"
+  },
+  {
+    "id": 16,
+    "name": "Fruit Smoothie",
+    "price": 4.5,
+    "category": "Brunch",
+    "image": "/images/cute Fruit Smoothie that looks real .jpg"
+  },
+
+  {
+    "id": 17,
+    "name": "Espresso",
+    "price": 3.0,
+    "category": "Usual",
+    "image": "/images/cute Espresso that looks real .jpg"
+  },
+  {
+    "id": 18,
+    "name": "Americano",
+    "price": 3.5,
+    "category": "Usual",
+    "image": "/images/cute Americano coffee that looks real .jpg"
+  },
+  {
+    "id": 19,
+    "name": "Flat White",
+    "price": 4.0,
+    "category": "Usual",
+    "image": "/images/cute Flat White brew that looks real .jpg"
+  },
+  {
+    "id": 20,
+    "name": "Mocha",
+    "price": 4.8,
+    "category": "Usual",
+    "image": "/images/cute Mocha latte that looks real .jpg"
+  },
+  {
+    "id": 21,
+    "name": "Hot Chocolate",
+    "price": 4.2,
+    "category": "Usual",
+    "image": "/images/cute Hot Chocolate that looks real .jpg"
+  },
+  {
+    "id": 22,
+    "name": "Chai Latte",
+    "price": 4.5,
+    "category": "Usual",
+    "image": "/images/cute Chai Latte that looks real .jpg"
+  },
+  {
+    "id": 23,
+    "name": "Iced Latte",
+    "price": 4.0,
+    "category": "Usual",
+    "image": "/images/cute Iced Latte that looks real .jpg"
+  },
+  {
+    "id": 24,
+    "name": "Cold Brew",
+    "price": 3.8,
+    "category": "Usual",
+    "image": "/images/cute Cold Brew that looks real .jpg"
+  },
+
+  {
+    "id": 25,
+    "name": "Cinnamon Roll",
+    "price": 3.5,
+    "category": "Breakfast",
+    "image": "/images/cute Cinnamon Roll that looks real .jpg"
+  },
+  {
+    "id": 26,
+    "name": "Blueberry Muffin",
+    "price": 2.8,
+    "category": "Breakfast",
+    "image": "/images/cute Blueberry Muffin that looks real .jpg"
+  },
+  {
+    "id": 27,
+    "name": "Granola Bar",
+    "price": 2.2,
+    "category": "Breakfast",
+    "image": "/images/cute Granola Bar that looks real  (1).jpg"
+  },
+  {
+    "id": 28,
+    "name": "Herbal Tea",
+    "price": 3.0,
+    "category": "Usual",
+    "image": "/images/cute Herbal Tea that looks real .jpg"
+  },
+  {
+    "id": 29,
+    "name": "Macchiato",
+    "price": 3.7,
+    "category": "Usual",
+    "image": "/images/cute Macchiato that looks real .jpg"
+  },
+  {
+    "id": 30,
+    "name": "Affogato",
+    "price": 5.0,
+    "category": "Usual",
+    "image": "/images/cute Affogato that looks really real.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Turmeric Latte",
+    "price": 4.5,
+    "category": "Usual",
+    "image": "/images/cute Turmeric Latte that looks real.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Iced Tea",
+    "price": 3.5,
+    "category": "Usual",
+    "image": "/images/cute Iced Tea that looks real.jpg"
+  },
+
+  {
+    "id": 33,
+    "name": "French Toast",
+    "price": 6.5,
+    "category": "Brunch",
+    "image": "/images/cute French Toast that looks real .jpg"
+  },
+  {
+    "id": 34,
+    "name": "Omelette",
+    "price": 5.8,
+    "category": "Brunch",
+    "image": "/images/cute Omelette that looks real .jpg"
+  },
+  {
+    "id": 35,
+    "name": "Avocado Salad",
+    "price": 6.0,
+    "category": "Brunch",
+    "image": "/images/cute Avocado Salad that looks real .jpg"
+  },
+  {
+    "id": 36,
+    "name": "Grilled Cheese",
+    "price": 5.2,
+    "category": "Brunch",
+    "image": "/images/cute Grilled Cheese that looks real .jpg"
+  },
+  {
+    "id": 37,
+    "name": "Soup of the Day",
+    "price": 4.8,
+    "category": "Brunch",
+    "image": "/images/cute Soup of the Day that looks real .jpg"
+  },
+  {
+    "id": 38,
+    "name": "Falafel Wrap",
+    "price": 6.7,
+    "category": "Brunch",
+    "image": "/images/cute Falafel Wrap that looks real .jpg"
+  },
+  {
+    "id": 39,
+    "name": "Veggie Burger",
+    "price": 8.5,
+    "category": "Brunch",
+    "image": "/images/cute Veggie Burger that looks real .jpg"
+  },
+  {
+    "id": 40,
+    "name": "Caprese Sandwich",
+    "price": 7.2,
+    "category": "Brunch",
+    "image": "/images/cute Caprese Sandwich that looks real .jpg"
+  },
+
+  {
+    "id": 41,
+    "name": "Iced Mocha",
+    "price": 4.8,
+    "category": "Usual",
+    "image": "/images/cute Iced Mocha that looks real.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Strawberry Milkshake",
+    "price": 5.0,
+    "category": "Usual",
+    "image": "/images/cute Strawberry Milkshake that looks real.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Lemonade Fresh",
+    "price": 3.5,
+    "category": "Usual",
+    "image": "/images/cute Lemonade Fresh that looks real.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Iced Matcha Latte",
+    "price": 4.5,
+    "category": "Usual",
+    "image": "/images/cute Iced Matcha Latte that looks real.jpg"
+  },
+  {
+    "id": 45,
+    "name": "Green Tea",
+    "price": 3.0,
+    "category": "Usual",
+    "image": "/images/cute full hot Green Tea  that looks real.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Earl Grey Tea",
+    "price": 3.2,
+    "category": "Usual",
+    "image": "/images/cute Green Tea that looks real.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Coconut Water",
+    "price": 3.5,
+    "category": "Usual",
+    "image": "/images/cute fresh Coconut Water that looks real.jpg"
+  },
+  {
+    "id": 48,
+    "name": "Mineral Water",
+    "price": 2.0,
+    "category": "Usual",
+    "image": "/images/cute fresh mineral bottle water.jpg"
+  },
+  {
+    "id": 49,
+    "name": "Banana Bread",
+    "price": 3.5,
+    "category": "Breakfast",
+    "image": "/images/cute Banana Bread that looks real .jpg"
+  },
+  {
+    "id": 50,
+    "name": "Cheesecake Slice",
+    "price": 4.8,
+    "category": "Brunch",
+    "image": "/images/cute Cheesecake Slice that looks real .jpg"
+  }
+]

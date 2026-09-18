@@ -1,0 +1,386 @@
+/* Cute pastel aesthetic */
+:root{
+  --bg:#fff7fb;
+  --card:#ffffff;
+  --ink:#2b2b2b;
+  --muted:#6b6b6b;
+  --accent:#ffb3c1;
+  --accent-2:#ffd6e0;
+  --ring:#ffcfe0;
+}
+
+*{box-sizing:border-box;font-size: 16px;font-family: cursive;}
+html,body,#root{height:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji}
+
+.shell{min-height:100%;display:flex;flex-direction:column}
+.topbar{position:sticky;top:0;background:var(--card);border-bottom:1px solid #eee;display:flex;align-items:center;justify-content:space-between;padding:12px 20px;backdrop-filter:saturate(180%) blur(8px);z-index:20}
+.topbar .brand{
+  background-position: center;
+  width: 90px;
+  height: 110px;
+  font-weight: 800;
+  letter-spacing: .4px;
+  background-image: url('/coffee.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;   /* adjust size */
+}
+.pepa{
+  background-image: url(pepa.jpg);
+  position: relative;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  border-radius: 20px;
+}
+.pepa-text{
+  font-family: cursive;
+  color: saddlebrown;
+  position: absolute;
+  right: 5%;
+  width: 60%;
+  max-width: 420px;
+  margin: 0;
+  text-align: right;
+}
+.pepa-text.t1{ top: 15%; font-size: 32px; }
+.pepa-text.t2{ top: 32%; font-size: 32px; text-align: right; }
+@media (max-width: 600px){
+  .pepa-text{ right: 4%; left: 4%; width: auto; max-width: none; text-align: center; }
+  .pepa-text.t1{ top: 8%; font-size: 20px; }
+  .pepa-text.t2{ top: 24%; font-size: 20px; }
+}
+.topbar nav a{margin:0 10px;text-decoration:none;color:var(--muted);padding:8px 10px;border-radius:10px}
+.topbar nav a.active{background:var(--accent-2);color:var(--ink)}
+
+.content{flex:1;padding:24px;max-width:1200px;margin:0 auto;width:100%}
+.footer{padding:20px;text-align:center;color:var(--muted)}
+
+.hero{display:grid;grid-template-columns:1.2fr 1fr;gap:24px;align-items:center}
+.hero .card{height: auto;background:var(--card);padding:24px;border-radius:18px;box-shadow:0 6px 20px rgba(0,0,0,.06)}
+.hero img{transform: translate(0px,50px)}
+.hero h1{margin:0 0 16px;font-size:32px}
+.hero p{margin:0 0 20px;color:var(--muted);font-size: 16px;}
+.cta{display:flex;gap:16px;flex-wrap:wrap}
+.btn{border:0;border-radius:12px;padding:12px 16px;background:var(--accent);color:#111;font-weight:700;cursor:pointer}
+.btn.ghost{background:var(--accent-2)}
+.btn:focus{outline:3px solid var(--ring)}
+.price{font-weight:800}
+.badge{background:var(--accent-2);padding:8px 14px;border-radius:999px;font-size:12px;color:#333;display: flex;
+  flex-direction: row}
+.row{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+
+/* Container Layout */
+.locations-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.pepa-text.t2 {
+    top: 44%;
+    left: 51%;
+    font-size: 38px;
+    text-align: right;
+}
+
+.pepa-text.t1 {
+    top: 33%;
+    left: 46%;
+    font-size: 38px;
+}
+
+.kicker {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #d4a373;
+  margin-bottom: 8px;
+}
+
+.section-title h2 {
+  font-size: 28px;
+  color: #000000;
+  margin: 0;
+}
+
+.gridspecial {
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+  padding: 30px 10px;
+  scrollbar-width: none; /* Hide scrollbar */
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 8%,
+    black 92%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 8%,
+    black 92%,
+    transparent 100%
+  );
+}
+/* Grid Layout */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+}
+
+.order-grid{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+}
+
+.cardbig {
+  flex: 0 0 260px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+  padding: 16px;
+  transition: transform 0.3s ease;
+}
+
+/* Card Design */
+.card {
+  flex: 0 0 260px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+  padding: 16px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  border-color: #d4a373;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+.cardbig:hover {
+  transform: translateY(-8px);
+  border-color: #d4a373;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+.cardbig img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.cardbig h3 {
+  font-size: 20px;
+  color: #ffffff;
+  margin: 0 0 10px 0;
+}
+
+.card h3 {
+  font-size: 20px;
+  color: #000000;
+  margin: 0 0 10px 0;
+}
+
+.card .address {
+  color: #a0a0a0;
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+
+
+.cardbig .address {
+  color: #a0a0a0;
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+
+
+.section-title{display:flex;align-items:baseline;justify-content:space-between;margin-top:24px;flex-wrap:wrap;gap:12px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap}
+.tab{border-radius: 30px;
+    height: 40px;
+    border: 3px solid #ffb3c1;
+    background: #ffffff;
+    cursor: pointer;
+    position: relative;
+    margin-left: 8px;
+    margin-top: 1px;
+    padding: 0 14px;}
+.tab.active{background:var(--accent-2)}
+.input, .select{    padding: 12px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    background: #fff;
+    margin: 0px 0px 20px;
+    width: 100%;}
+.stack{display:grid;gap:12px}
+
+.cart{position:sticky;top:84px;background:var(--card);border:1px solid #eee;border-radius:16px;padding:12px;box-shadow:0 6px 18px rgba(0,0,0,.05)}
+.cart-item{display:grid;grid-template-columns:1fr auto auto;gap:8px;align-items:center}
+.cart-item .qty{display:flex;gap:8px;align-items:center}
+.sep{height:1px;background:#eee;margin:8px 0}
+.total{display:flex;align-items:center;justify-content:space-between;font-weight:800}
+
+
+/* --- v2 additions: animations, mascot, floating hearts --- */
+.mascot{display:flex;align-items:center;gap:12px}
+.mascot-bubble{background:var(--card);padding:10px 14px;border-radius:16px;border:1px solid #ffe6ef;box-shadow:0 6px 18px rgba(0,0,0,.04);font-weight:700}
+.mascot-body {
+  width: 90px;
+  height: 90px;
+  animation: bounce 3s infinite ease-in-out;
+  background-image: url('maria.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@keyframes bounce{
+  0%{transform:translateY(0)}
+  50%{transform:translateY(-6px)}
+  100%{transform:translateY(0)}
+}
+
+
+.btn{transition:transform .12s ease}
+.btn:active{transform:scale(.98) translateY(1px)}
+.beans {
+    position: relative;
+    z-index: 1;
+    height: 140px;
+    background-image: url(/beans.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    bottom: 30px;
+    border-radius: 20px;
+    transform: translate(0px, -20px);
+}
+.floating-heart{position:fixed;right:12px;bottom:12px;pointer-events:none;opacity:0.85}
+.floating-heart svg{width:90px;height:90px}
+.float-anim{animation:floatUp 6s infinite linear}
+@keyframes floatUp{
+  0%{transform:translateY(0) rotate(0); opacity:1}
+  100%{transform:translateY(-260px) rotate(360deg); opacity:0}
+}
+
+/* daily special star badge */
+.star-badge{background:linear-gradient(90deg,var(--accent),var(--accent-2));padding:6px 8px;border-radius:999px;color:#fff;font-weight:800;box-shadow:0 6px 18px rgba(0,0,0,.06)}
+/* loyalty stamp visuals */
+.loyalty-stamps{display:flex;gap:6px;flex-wrap:wrap}
+.stamp{width:28px;height:28px;border-radius:6px;background:#fff;border:1px dashed #ffd6e0;display:flex;align-items:center;justify-content:center;font-size:12px}
+.stamp.active{background:linear-gradient(90deg,var(--accent),var(--accent-2));color:#fff;border:1px solid #ffb3c1}
+
+/* ===== responsive breakpoints — same layout, scaled down ===== */
+@media (max-width: 900px){
+  .hero img{transform: translate()}
+  .content{padding:16px}
+  .order-grid{grid-template-columns:1fr}
+  .pepa{background-position: bottom}
+  .pepa-text.t2 {
+    top: 41%;
+    left: 38%;
+    font-size: 38px;
+    text-align: right;
+  }
+  .pepa-text.t1 {
+    top: 29%;
+    left: 34%
+    ;
+    font-size: 38px;
+  }
+  .cart{position:static}
+  .beans{height:115px}
+}
+
+@media (max-width: 780px){
+
+  .hero{grid-template-columns:1fr}
+  .topbar{padding:10px 14px}
+  .topbar .brand{width:64px;height:78px}
+  .topbar nav a{margin:0 4px;padding:6px 8px;font-size:14px}
+  .hero h1{font-size:26px}
+  .pepa{height:400px;
+    background-position: left;}
+  .pepa-text.t1 {
+        top: 31%;
+        left: 22%;
+        font-size: 31px;
+  }
+  .pepa-text.t2 {
+        top: 42%;
+        left: 30%;
+        font-size: 31px;
+    }
+  .beans{height: 217px;
+        transform: translate(0px, -100px);}
+  .floating-heart{display:none}
+  .cart-item{grid-template-columns:1fr;gap:6px}
+}
+@media (max-width: 550px){
+
+  .hero{grid-template-columns:1fr}
+  .topbar{padding:10px 14px}
+  .topbar .brand{width:64px;height:78px}
+  .topbar nav a{margin:0 4px;padding:6px 8px;font-size:14px}
+  .hero h1{font-size:26px}
+  .pepa{height:400px;
+    background-position: left;}
+  .pepa-text.t1 {
+        top: 31%;
+        left: 44%;
+        font-size: 25px;
+  }
+  .pepa-text.t2 {
+        top: 42%;
+        left: 30%;
+        font-size: 25px;
+    }
+  .beans{height: 217px;
+        transform: translate(0px, -100px);}
+  .floating-heart{display:none}
+  .cart-item{grid-template-columns:1fr;gap:6px}
+}
+@media (max-width: 480px){
+
+  .hero{grid-template-columns:1fr}
+  .topbar{padding:10px 14px}
+  .topbar .brand{width:64px;height:78px}
+  .topbar nav a{margin:0 4px;padding:6px 8px;font-size:14px}
+  .hero h1{font-size:26px}
+  .pepa{height:400px;
+    background-position: left;}
+  .pepa-text.t1 {
+        top: 7%;
+        left: 7%;
+        font-size: 25px;
+  }
+  .pepa-text.t2 {
+        top: 16%;
+        left: 0%;
+        font-size: 25px;
+    }
+  .beans{height: 217px;
+        transform: translate(0px, -100px);}
+  .floating-heart{display:none}
+  .cart-item{grid-template-columns:1fr;gap:6px}
+}

@@ -1,0 +1,680 @@
+[
+  {
+    "id": "TyEY442drL",
+    "createdAt": "2025-09-08T17:53:41.215Z",
+    "items": [
+      {
+        "id": 2,
+        "name": "French Croissant",
+        "price": 2.5,
+        "qty": 1
+      },
+      {
+        "id": 3,
+        "name": "Pain au Chocolat",
+        "price": 2.8,
+        "qty": 1
+      },
+      {
+        "id": 4,
+        "name": "Chia Pudding Bowl",
+        "price": 5.5,
+        "qty": 1
+      }
+    ],
+    "customer": {
+      "name": "maria",
+      "phone": "0555555555",
+      "note": "brrrrrr"
+    },
+    "total": 10.8
+  },
+  {
+    "id": "E4CNMegSHq",
+    "createdAt": "2025-09-08T17:57:58.725Z",
+    "items": [
+      {
+        "id": 1,
+        "name": "Classic Cappuccino",
+        "price": 4.5,
+        "qty": 1
+      },
+      {
+        "id": 2,
+        "name": "French Croissant",
+        "price": 2.5,
+        "qty": 1
+      },
+      {
+        "id": 3,
+        "name": "Pain au Chocolat",
+        "price": 2.8,
+        "qty": 1
+      }
+    ],
+    "customer": {
+      "name": "zaki",
+      "phone": "066666666",
+      "note": "no dsugar"
+    },
+    "total": 9.8
+  },
+  {
+    "id": "q5IEIlg8Qi",
+    "createdAt": "2025-09-30T14:54:26.609Z",
+    "items": [
+      {
+        "id": 23,
+        "name": "Iced Latte",
+        "price": 4,
+        "qty": 1
+      },
+      {
+        "id": 14,
+        "name": "Shakshuka",
+        "price": 8,
+        "qty": 1
+      }
+    ],
+    "customer": {
+      "name": "alaa",
+      "phone": "05555876",
+      "note": "pliz lower prices"
+    },
+    "total": 12
+  },
+  {
+    "id": "M_qyThbRo6",
+    "createdAt": "2025-10-01T03:54:57.716Z",
+    "items": [
+      {
+        "id": 3,
+        "name": "Pain au Chocolat",
+        "price": 2.8,
+        "qty": 1
+      },
+      {
+        "id": 4,
+        "name": "Chia Pudding Bowl",
+        "price": 5.5,
+        "qty": 1
+      }
+    ],
+    "customer": {
+      "name": "austin",
+      "phone": "775454",
+      "note": "less sugar"
+    },
+    "total": 8.3
+  },
+  {
+    "id": "3h9n8sl40v",
+    "createdAt": "2025-10-01T09:24:47.240Z",
+    "items": [
+      {
+        "id": 7,
+        "name": "Greek Yogurt & Berries",
+        "price": 5,
+        "qty": 1
+      },
+      {
+        "id": 39,
+        "name": "Veggie Burger",
+        "price": 8.5,
+        "qty": 1
+      }
+    ],
+    "customer": {
+      "name": "austin",
+      "phone": "110",
+      "note": "no coriander"
+    },
+    "total": 13.5
+  },
+  {
+    "id": "lw6LeurKlL",
+    "createdAt": "2025-10-01T09:29:30.779Z",
+    "items": [
+      {
+        "id": 1,
+        "name": "Classic Cappuccino",
+        "price": 4.5,
+        "qty": 1
+      },
+      {
+        "id": 2,
+        "name": "French Croissant",
+        "price": 2.5,
+        "qty": 1
+      },
+      {
+        "id": 3,
+        "name": "Pain au Chocolat",
+        "price": 2.8,
+        "qty": 1
+      }
+    ],
+    "customer": {
+      "name": "j",
+      "phone": "hh",
+      "note": "hhh"
+    },
+    "total": 9.8
+  },
+  {
+    "id": "WqToxsex8c",
+    "createdAt": "2025-10-01T09:33:22.573Z",
+    "items": [
+      {
+        "id": 2,
+        "name": "French Croissant",
+        "price": 2.5,
+        "qty": 1
+      },
+      {
+        "id": 3,
+        "name": "Pain au Chocolat",
+        "price": 2.8,
+        "qty": 1
+      }
+    ],
+    "customer": {
+      "name": "bvhgb",
+      "phone": "nbghvbg",
+      "note": "bvhgvbghv"
+    },
+    "total": 5.3
+  },
+  {
+    "id": "LaukxqEf7d",
+    "createdAt": "2025-10-01T09:33:27.745Z",
+    "items": [
+      {
+        "id": 2,
+        "name": "French Croissant",
+        "price": 2.5,
+        "qty": 1
+      },
+      {
+        "id": 3,
+        "name": "Pain au Chocolat",
+        "price": 2.8,
+        "qty": 1
+      }
+    ],
+    "customer": {
+      "name": "bvhgb",
+      "phone": "nbghvbg",
+      "note": "bvhgvbghv"
+    },
+    "total": 5.3
+  },
+  {
+    "id": "c9mu6zl_2k",
+    "createdAt": "2025-10-01T09:33:38.352Z",
+    "items": [
+      {
+        "id": 2,
+        "name": "French Croissant",
+        "price": 2.5,
+        "qty": 1
+      },
+      {
+        "id": 3,
+        "name": "Pain au Chocolat",
+        "price": 2.8,
+        "qty": 1
+      }
+    ],
+    "customer": {
+      "name": "bvhgb",
+      "phone": "nbghvbg",
+      "note": "bvhgvbghv"
+    },
+    "total": 5.3
+  },
+  {
+    "id": "gbQW-NM-4T",
+    "createdAt": "2025-10-01T09:37:07.895Z",
+    "items": [
+      {
+        "id": 3,
+        "name": "Pain au Chocolat",
+        "price": 2.8,
+        "qty": 1
+      },
+      {
+        "id": 4,
+        "name": "Chia Pudding Bowl",
+        "price": 5.5,
+        "qty": 1
+      }
+    ],
+    "customer": {
+      "name": "bn",
+      "phone": "hb",
+      "note": "b"
+    },
+    "total": 8.3
+  },
+  {
+    "id": "RCME69IQWR",
+    "createdAt": "2025-10-01T09:38:16.346Z",
+    "items": [
+      {
+        "id": 3,
+        "name": "Pain au Chocolat",
+        "price": 2.8,
+        "qty": 1
+      }
+    ],
+    "customer": {
+      "name": "b",
+      "phone": "b",
+      "note": "h"
+    },
+    "total": 2.8
+  },
+  {
+    "id": "VF3kFjvvES",
+    "createdAt": "2025-10-01T09:53:43.345Z",
+    "items": [
+      {
+        "id": 2,
+        "name": "French Croissant",
+        "price": 2.5,
+        "qty": 1
+      },
+      {
+        "id": 3,
+        "name": "Pain au Chocolat",
+        "price": 2.8,
+        "qty": 1
+      }
+    ],
+    "customer": {
+      "name": "t",
+      "phone": "t",
+      "note": "t"
+    },
+    "total": 5.3
+  },
+  {
+    "id": "0DU21HrWCq",
+    "createdAt": "2025-10-01T09:54:52.608Z",
+    "items": [
+      {
+        "id": 3,
+        "name": "Pain au Chocolat",
+        "price": 2.8,
+        "qty": 1
+      },
+      {
+        "id": 4,
+        "name": "Chia Pudding Bowl",
+        "price": 5.5,
+        "qty": 1
+      }
+    ],
+    "customer": {
+      "name": "fdrfc",
+      "phone": "fcfrc",
+      "note": "edrf"
+    },
+    "total": 8.3
+  },
+  {
+    "id": "sGvaCHQwKK",
+    "createdAt": "2025-10-01T11:28:51.218Z",
+    "items": [
+      {
+        "id": 3,
+        "name": "Pain au Chocolat",
+        "price": 2.8,
+        "qty": 2
+      },
+      {
+        "id": 4,
+        "name": "Chia Pudding Bowl",
+        "price": 5.5,
+        "qty": 1
+      }
+    ],
+    "customer": {
+      "name": "v",
+      "phone": "ii",
+      "note": "cfgc"
+    },
+    "total": 11.1
+  },
+  {
+    "id": "o-ZfBeHwJQ",
+    "createdAt": "2025-10-01T13:24:44.605Z",
+    "items": [
+      {
+        "id": 1,
+        "name": "Classic Cappuccino",
+        "price": 4.5,
+        "qty": 1
+      }
+    ],
+    "customer": {
+      "name": "ht",
+      "phone": "f",
+      "note": "f"
+    },
+    "total": 4.5
+  },
+  {
+    "id": "TJFq4VvcBA",
+    "createdAt": "2026-04-11T10:26:29.929Z",
+    "items": [
+      {
+        "id": 34,
+        "name": "Omelette",
+        "price": 5.8,
+        "qty": 41
+      }
+    ],
+    "customer": {
+      "name": "maria",
+      "phone": "5555555555",
+      "note": "nvfgcfgc"
+    },
+    "total": 237.8
+  },
+  {
+    "id": "EA8AEAR0Z1",
+    "createdAt": "2026-04-11T10:31:29.462Z",
+    "items": [
+      {
+        "id": 2,
+        "name": "French Croissant",
+        "price": 2.5,
+        "qty": 1
+      },
+      {
+        "id": 3,
+        "name": "Pain au Chocolat",
+        "price": 2.8,
+        "qty": 1
+      },
+      {
+        "id": 1,
+        "name": "Classic Cappuccino",
+        "price": 4.5,
+        "qty": 1
+      }
+    ],
+    "customer": {
+      "name": "maria",
+      "phone": "6756456",
+      "note": "nvgfv"
+    },
+    "total": 9.8
+  },
+  {
+    "id": "nhaIx0d6K1",
+    "createdAt": "2026-04-11T10:32:06.196Z",
+    "items": [
+      {
+        "id": 1,
+        "name": "Classic Cappuccino",
+        "price": 4.5,
+        "qty": 1
+      },
+      {
+        "id": 2,
+        "name": "French Croissant",
+        "price": 2.5,
+        "qty": 1
+      },
+      {
+        "id": 3,
+        "name": "Pain au Chocolat",
+        "price": 2.8,
+        "qty": 1
+      }
+    ],
+    "customer": {
+      "name": "maria",
+      "phone": "7899",
+      "note": "hfhg"
+    },
+    "total": 9.8
+  },
+  {
+    "id": "ofCOWvGIrY",
+    "createdAt": "2026-04-11T10:32:27.408Z",
+    "items": [
+      {
+        "id": 4,
+        "name": "Chia Pudding Bowl",
+        "price": 5.5,
+        "qty": 1
+      }
+    ],
+    "customer": {
+      "name": "",
+      "phone": "",
+      "note": ""
+    },
+    "total": 5.5
+  },
+  {
+    "id": "p5aS-2aKEm",
+    "createdAt": "2026-04-11T10:33:15.058Z",
+    "items": [
+      {
+        "id": 2,
+        "name": "French Croissant",
+        "price": 2.5,
+        "qty": 1
+      }
+    ],
+    "customer": {
+      "name": "sousou",
+      "phone": "7789",
+      "note": "098877"
+    },
+    "total": 2.5
+  },
+  {
+    "id": "AOXAHN5oyA",
+    "createdAt": "2026-04-11T10:33:32.829Z",
+    "items": [
+      {
+        "id": 2,
+        "name": "French Croissant",
+        "price": 2.5,
+        "qty": 1
+      },
+      {
+        "id": 3,
+        "name": "Pain au Chocolat",
+        "price": 2.8,
+        "qty": 1
+      },
+      {
+        "id": 4,
+        "name": "Chia Pudding Bowl",
+        "price": 5.5,
+        "qty": 1
+      }
+    ],
+    "customer": {
+      "name": "maria",
+      "phone": "765745",
+      "note": "hghgfhgfv"
+    },
+    "total": 10.8
+  },
+  {
+    "id": "-v19fEOnZt",
+    "createdAt": "2026-04-11T10:34:23.361Z",
+    "items": [
+      {
+        "id": 3,
+        "name": "Pain au Chocolat",
+        "price": 2.8,
+        "qty": 1
+      }
+    ],
+    "customer": {
+      "name": "sousou",
+      "phone": "6756745",
+      "note": "bvcvfcfbc"
+    },
+    "total": 2.8
+  },
+  {
+    "id": "8d0TFcCC3q",
+    "createdAt": "2026-04-11T10:34:44.422Z",
+    "items": [
+      {
+        "id": 1,
+        "name": "Classic Cappuccino",
+        "price": 4.5,
+        "qty": 1
+      },
+      {
+        "id": 2,
+        "name": "French Croissant",
+        "price": 2.5,
+        "qty": 1
+      }
+    ],
+    "customer": {
+      "name": "maria",
+      "phone": "",
+      "note": ""
+    },
+    "total": 7
+  },
+  {
+    "id": "LAGg_6cFXJ",
+    "createdAt": "2026-04-11T10:34:51.442Z",
+    "items": [
+      {
+        "id": 3,
+        "name": "Pain au Chocolat",
+        "price": 2.8,
+        "qty": 1
+      }
+    ],
+    "customer": {
+      "name": "maria",
+      "phone": "",
+      "note": ""
+    },
+    "total": 2.8
+  },
+  {
+    "id": "w80dIxZo8L",
+    "createdAt": "2026-04-11T10:34:58.612Z",
+    "items": [
+      {
+        "id": 3,
+        "name": "Pain au Chocolat",
+        "price": 2.8,
+        "qty": 1
+      }
+    ],
+    "customer": {
+      "name": "maria",
+      "phone": "",
+      "note": ""
+    },
+    "total": 2.8
+  },
+  {
+    "id": "FK9eLP6x9o",
+    "createdAt": "2026-04-11T10:35:05.210Z",
+    "items": [
+      {
+        "id": 4,
+        "name": "Chia Pudding Bowl",
+        "price": 5.5,
+        "qty": 1
+      }
+    ],
+    "customer": {
+      "name": "maria",
+      "phone": "",
+      "note": ""
+    },
+    "total": 5.5
+  },
+  {
+    "id": "3JOMsi1IGg",
+    "createdAt": "2026-04-11T10:35:12.156Z",
+    "items": [
+      {
+        "id": 4,
+        "name": "Chia Pudding Bowl",
+        "price": 5.5,
+        "qty": 1
+      }
+    ],
+    "customer": {
+      "name": "maria",
+      "phone": "",
+      "note": ""
+    },
+    "total": 5.5
+  },
+  {
+    "id": "Dfy0Oh3-3k",
+    "createdAt": "2026-04-11T10:35:19.286Z",
+    "items": [
+      {
+        "id": 4,
+        "name": "Chia Pudding Bowl",
+        "price": 5.5,
+        "qty": 1
+      }
+    ],
+    "customer": {
+      "name": "maria",
+      "phone": "",
+      "note": ""
+    },
+    "total": 5.5
+  },
+  {
+    "id": "W9VeZUNULM",
+    "createdAt": "2026-04-11T10:35:41.369Z",
+    "items": [
+      {
+        "id": 3,
+        "name": "Pain au Chocolat",
+        "price": 2.8,
+        "qty": 1
+      }
+    ],
+    "customer": {
+      "name": "maria",
+      "phone": "",
+      "note": ""
+    },
+    "total": 2.8
+  },
+  {
+    "id": "v6OuK7yNeP",
+    "createdAt": "2026-04-11T10:35:54.222Z",
+    "items": [
+      {
+        "id": 2,
+        "name": "French Croissant",
+        "price": 2.5,
+        "qty": 1
+      }
+    ],
+    "customer": {
+      "name": "maria",
+      "phone": "",
+      "note": ""
+    },
+    "total": 2.5
+  }
+]
