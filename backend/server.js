@@ -24,6 +24,9 @@ app.use(bodyParser.json());
 
 connectDB();
 
+app.get("/", (req, res) => {
+  res.send("☕ Coffee backend API is running!");
+});
 
 app.post("/api/register", async (req, res) => {
   const { username, password } = req.body;
@@ -88,3 +91,4 @@ app.use("/api/orders", createOrderRoutes);
 app.listen(PORT, () => {
   console.log(`☕ Coffee backend running at http://localhost:${PORT}`);
 });
+export default app;
