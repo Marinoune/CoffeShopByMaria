@@ -5,7 +5,7 @@
       "destination": "https://coffe-shop-by-maria.vercel.app/api/$1"
     },
     {
-      "source": "/(.*)",
+      "source": "/((?!.*\\.(?:jpg|jpeg|gif|png|svg|ico|mp3|wav|ogg)$).*)",
       "destination": "/index.html"
     }
   ]
