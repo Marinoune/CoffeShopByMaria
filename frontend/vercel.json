@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "source": "/api/(.*)",
+      "destination": "https://coffe-shop-by-maria.vercel.app/api/$1"
     },
     {
       "source": "/(.*)",
