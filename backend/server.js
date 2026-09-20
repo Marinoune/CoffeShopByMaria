@@ -17,7 +17,10 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 const JWT_SECRET = process.env.JWT_SECRET;
 
-app.use(cors());
+app.use(cors({
+  origin: '*', // Allows all origins, or replace '*' with 'https://your-frontend.vercel.app'
+  credentials: true
+}));
 app.use(express.json());
 app.use(bodyParser.json());
 
