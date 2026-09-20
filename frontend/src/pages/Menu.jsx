@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import React from "react"
 import { API } from '../api.js'
 import { useCart } from '../cart/CartContext.jsx'
+const BACKEND_URL = "https://coffe-shop-by-maria.vercel.app";
 
 export default function Menu(){
   const [dailyId, setDailyId] = React.useState(null)
@@ -106,7 +107,10 @@ export default function Menu(){
       <div className="grid">
         {filtered.map(it => (
           <article key={it.id} className="card">
-            <img src={it.image.startsWith('/') ? it.image : `/${it.image}`} alt={it.name} />
+            <img 
+            src={encodeURI(`${BACKEND_URL}${it.image.startsWith('/') ? it.image : `/${it.image}`}`)} 
+            alt={it.name} 
+            />
             <h3>
               {it.name} {dailyId === it.id && <span className="star-badge" style={{marginLeft:8}}>🌟 Today's Pick</span>}
             </h3>

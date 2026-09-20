@@ -22,6 +22,7 @@ app.use(cors({
   credentials: true
 }));
 app.use(express.json());
+app.use(express.static(path.join(process.cwd(), 'public')));
 app.use(bodyParser.json());
 
 
