@@ -107,8 +107,8 @@ export default function Menu(){
       <div className="grid">
         {filtered.map(it => (
           <article key={it.id} className="card">
-            <img 
-            src={encodeURI(`${BACKEND_URL}${it.image.startsWith('/') ? it.image : `/${it.image}`}`)} 
+           <img 
+            src={encodeURI(it.image.startsWith('/') ? it.image : `/${it.image}`)} 
             alt={it.name} 
             />
             <h3>
