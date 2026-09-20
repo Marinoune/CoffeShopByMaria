@@ -10,7 +10,7 @@ export default function LoginPage() {
 
   const handleRegister = async () => {
     try {
-      await axios.post("http://localhost:5000/api/register", { username, password });
+      await axios.post("/api/register", { username, password });
       setMessage(" Registered! Now login.");
     } catch (err) {
       setMessage("error " + (err.response?.data?.message || "Registration failed"));
@@ -20,7 +20,7 @@ export default function LoginPage() {
   async function handleLogin(e) {
     if (e) e.preventDefault();
     try {
-      const res = await fetch("http://localhost:5000/api/login", {
+      const res = await fetch("/api/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, password }),

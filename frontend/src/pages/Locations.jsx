@@ -4,7 +4,7 @@ import { API } from '../api'
 export default function Locations(){
   const [locations, setLocations] = useState([])
   useEffect(() => {
-  fetch("http://localhost:5000/api/locations")
+  fetch("/api/locations")
     .then(res => res.json())
     .then(data => setLocations(data))
     .catch(err => console.error("Error loading locations:", err));

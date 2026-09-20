@@ -13,7 +13,7 @@ export default function Menu(){
 
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/menu")
+    fetch("/api/menu")
       .then(res => res.json())
       .then(data => setMenu(data))
       .catch(err => console.error("Error loading menu:", err));
@@ -48,7 +48,7 @@ export default function Menu(){
     console.log("IMAGE SRC:", imageSrc);
     const el = document.createElement("img");
 
-    el.src = `http://localhost:5000${imageSrc}`;
+    el.src = imageSrc.startsWith('/') ? imageSrc : `/${imageSrc}`;
     el.onload = () => console.log("IMAGE LOADED OK");
     el.onerror = () => console.log("IMAGE FAILED TO LOAD");
     el.style.position = "absolute";
@@ -106,7 +106,7 @@ export default function Menu(){
       <div className="grid">
         {filtered.map(it => (
           <article key={it.id} className="card">
-            <img src={`http://localhost:5000${it.image}`} alt={it.name} />
+            <img src={it.image.startsWith('/') ? it.image : `/${it.image}`} alt={it.name} />
             <h3>
               {it.name} {dailyId === it.id && <span className="star-badge" style={{marginLeft:8}}>🌟 Today's Pick</span>}
             </h3>
