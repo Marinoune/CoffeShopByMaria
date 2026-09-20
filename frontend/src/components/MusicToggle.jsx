@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 export default function MusicToggle(){
   const [playing, setPlaying] = useState(false)
-  const [audio] = useState(() => new Audio('/public/cutie-japan-lofi-402355.mp3'))
+  const [audio] = useState(() => new Audio('/cutie-japan-lofi-402355.mp3'));
 
   useEffect(() => {
     audio.loop = true

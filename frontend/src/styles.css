@@ -27,7 +27,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:ui-sans-serif, s
   display: inline-block;   /* adjust size */
 }
 .pepa{
-  background-image: url(pepa.jpg);
+  background-image: url(/pepa.jpg);
   position: relative;
   height: 500px;
   background-size: cover;
@@ -248,7 +248,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:ui-sans-serif, s
   width: 90px;
   height: 90px;
   animation: bounce 3s infinite ease-in-out;
-  background-image: url('maria.png');
+  background-image: url('/maria.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
