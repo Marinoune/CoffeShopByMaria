@@ -1,4 +1,3 @@
-export const API = (path) => {
-  const base = 'http://localhost:4000' // backend
-  return base + path
-}
+const API = axios.create({ 
+  baseURL: 'https://coffe-shop-by-maria-74du.vercel.app/api' 
+});
